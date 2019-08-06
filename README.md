@@ -8,3 +8,12 @@ I decided to use a dictionary to contain the factors and the corresponding strin
 ##Testing
 
 For my testing I used pytest.
+I used pytest as it is a much simpler and more versatile form of unit testing.
+For my testing I performed 17 tests which included tests for every possible form of the strings Pling Plang and Plong being concatenated and output as well as edge cases such as negative numbers and 0.
+I used the definition of factors to include natural numbers meaning negative numbers should be accepted.
+As the brief said numbers specifically should be input into my function I tested to ensure that strings and other non-number datatypes would not work with the function although all number datatypes including decimals should.
+
+Based on my testing I did add a statement that checked if a number was a numeric string and converted it into an integer if this was the case.
+
+To run my tests simply use pytest Test_RaindropsMain.py in the terminal.
+To use the function import it from the RaindropsMain.py file and call it with convert_number(n) where n is any number.
