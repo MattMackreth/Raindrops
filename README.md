@@ -15,5 +15,11 @@ As the brief said numbers specifically should be input into my function I tested
 
 Based on my testing I did add a statement that checked if a number was a numeric string and converted it into an integer if this was the case.
 
-To run my tests simply use pytest Test_RaindropsMain.py in the terminal.
-To use the function import it from the RaindropsMain.py file and call it with convert_number(n) where n is any number.
+## Running the program and tests
+To run the program you will need Python installed on the machine.<br>
+My tests run using the pytest module.<br>
+To run my tests simply the following in the terminal:
+>pytest Test_RaindropsMain.py 
+
+To use the function you will need to import it from the RaindropsMain.py file
+into a new python file and call it with convert_number(n) where n is any number.

@@ -11,7 +11,6 @@ def convert_number(n):  # Function takes number as parameter
     if type(n) == str and n.isnumeric() == 1:  # converts to integer if this is the case
         n = int(n)
 
-
     for sound in sounds.keys():  # For each key in the sounds dictionary
         if n % sound == 0:  # Do number mod current key's value
             result_string += sounds[sound]  # If current key is a factor then add the sound to the result string
