@@ -23,3 +23,5 @@ To run my tests simply the following in the terminal:
 
 To use the function you will need to import it from the RaindropsMain.py file
 into a new python file and call it with convert_number(n) where n is any number.
+
+Alternatively the file RaindropsUserInput.py allows the user to input number and have the raindrops function performed on it.
